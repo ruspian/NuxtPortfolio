@@ -8,10 +8,13 @@ definePageMeta({
 
 // memanggil useHead untuk mengubah title head
 useHead({
-    title: 'About',
-  })
+    title: 'Project',
+});
 </script>
 
 <template>
-    <h1>ini adalah halaman about</h1>
+    <div>
+        <h1>ini adalah halaman project</h1>
+        <ProjectList />
+    </div>
 </template>
